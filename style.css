@@ -1,0 +1,154 @@
+/* reset dasar */
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding: 20px;
+}
+/* tampilan body */
+body {
+    background-image: url(latar.jpg);
+    height: 100vh;
+}
+/* Gaya tampilan untuk navbar */
+nav {
+    background-color: rgba(26, 107, 24, 0.815);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    backdrop-filter: blur(5px);
+    position: sticky;
+    top: 0%;   
+}
+/* gaya tampilan untuk gambar di dalam div dan navbar */
+nav div img {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    left: 150px;
+}
+/* style untuk elemen dengan class nama */
+.nama {
+    color: #191919;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-left: 80px;
+}
+/* mengatur tampilan daftar navigasi di dalam tag <nav> */
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+/* tampilan untuk elemen <li> */
+nav ul li a {
+    text-decoration: none;
+    font-family: "Momo Trust Display", sans-serif;
+    color: #191919;
+    font-weight: 700;
+    font-size: 140%;
+    padding: 8px;
+    transition-duration: 300ms;
+    border-bottom: 1px solid  rgba(0, 129, 0, 0);
+}
+/* mengatur efek link yang di sorot kursor */
+nav ul li a:hover {
+    color: rgb(124, 207, 124);
+    border-bottom: 1px solid  rgb(116, 197, 116);
+}
+/* mengatur tampilan dengan class container */
+.container {
+    display: inline;
+}
+/* mengatur tampilan dengan class content */
+.content {
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 110%;
+    align-content: center;
+    background-color: #29111186;
+    border: 2px solid green;
+    border-radius: 9px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+/* mengatur efek tampilan dengan class box */
+.box a:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 40px;
+    padding: 20px;
+}
+/* mengatur tampilan gambar dengan class box */
+.box img {
+   border-radius: 100px;
+   border: 5px solid #191919;
+   width: 250px;
+   height: 250px;
+}
+/*  mengatur tampilan dengan class kata */
+.kata {
+    width: 150px;
+    color: white;
+    background-color: rgba(0, 128, 0, 0.562);
+    border-color: rgb(255, 221, 221);
+    border: 20px;
+    text-align: center;
+    font-family: cursive;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 50px;
+    backdrop-filter: blur(5px);
+}
+/*  mengatur tampilan daftar (<ul>) di dalam elemen dengan class kotak */
+.kotak ul li {
+    background-color: aliceblue;
+    color: aliceblue;
+}
+/* mengatur tampilan elemen <li> di dalam <div> */
+div ul li {
+    color: #d4f8d4;
+    background-color: #030303a6;
+    width: 100px;
+    height: 8px;
+    position: relative;
+    left: 55px;
+    align-items: center;
+    border: 3px solid rgb(28, 184, 14);
+    border-radius: 5px;
+    text-align: center;
+    margin: 15px;
+    padding-bottom: 20px;
+}
+/* mengatur tampilan dengan elemen class footer */
+.footer {
+    background-color: #08a308c4;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  /* mengatur cotainer di dalam footer */
+  .footer-container {
+    max-width: 1000px;
+    margin: auto;
+  }
+  /*  mengatur tampilan paragraf di dalam footer */
+  .footer p {
+    margin-bottom: 5px;
+  }
